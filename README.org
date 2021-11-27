@@ -1,0 +1,67 @@
+#+TITLE: Clon from trello
+
+* Spanish
+** Overview
+Trello es un herramienta basada en la metodologia agil llamada KanBan, que mejora la visibilidad del flujo de trabajo mediante un tablero
+*** Espacio de Trabajo se puede tener n
+Lugar donde estan los tableros
+**** Features
+**** Actions
+**** Tablero se puede tener n
+Pueden ser publicos y privados, colores y un fondo personalizable.
+***** Features
+***** Actions
+***** Listas se puede tener n
+Son la parte en la que se encuentran las tasks(tareas o tarjetas)
+****** Actions
+****** Features
+****** Tarjeta se puede tener n
+Un titulo de las tareas.
+******* Actions
+******* Features
+** Features
+*** Anadir usuarios
+Por un link de cambio de permiso
+*** tabla defecto
+Cuando se crea un tablero por defecto tiene
+1. lista de tareas
+2. en Proceso
+3. Hecho
+*** Tablero Marcado
+Sera de los primeros tableros que se muestran cuando es autenticado
+*** Tableros por equipos
+Son aquellos del cual eres parte
+*** Tableros personales
+Son aquellos que se muestran en el home que tu creaste y tu administras
+*** Equipo
+- Titulo del equipo
+- Description del equipo(optional)
+- El equipo puede ver el tablero
+- Permitir que cualquier mienbro del equipo se una a este tablero
+*** Invitacion
+- Correo
+- Description de la invitacion
+*** Asignacion de tarjetas
+Las tarjetas se pueden asignar a mienbros del espacio de trabajo
+*** Publico/Privado
+Si es publico se puede ver el estado de las tarjetas en las listas
+*** Seguir
+Permite recibir notificaciones del estado de la tarjeta >> lista >> tablero >> espacio de trabajo
+- Sobre cambios en las tarjetas(description, etc)
+- Actions que se hicieron
+*** Seguimiento de las invitaciones
+Si el invitado no ingresa a el link de invitacion se el coloca el estado de no aceptado
+*** Actions
+- Mover
+- Copiar
+- Seguir
+  - Que pueda recibir notificaciones de donde se encuentra la tarjetas
+  - Que reciba notificaciones de Cambios en la tarjeta
+*** Features
+- Description
+- Mienbros(optional)
+- Etiquetas(optional)
+- Fechas(optional)
+- Adjunto(link o media)
+* Overview
+  Trello is an simple management from tasks with metho KANBAN
