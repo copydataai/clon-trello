@@ -1,0 +1,34 @@
+# General
+# ------------------------------------------------------------------------------
+# DJANGO_READ_DOT_ENV_FILE=True
+DJANGO_SETTINGS_MODULE=config.settings.production
+DJANGO_SECRET_KEY=BezMmRdDAwYYVgQfqzX4Nhez1j0FEc3makQnrrcKpNTjcOaUYB37RGa7RADIdfUc
+DJANGO_ADMIN_URL=1K7UGM6xPj4QQdScJ64D4WPxDfKBaCbW/
+DJANGO_ALLOWED_HOSTS=.clontrello.com
+
+# Security
+# ------------------------------------------------------------------------------
+# TIP: better off using DNS, however, redirect is OK too
+DJANGO_SECURE_SSL_REDIRECT=False
+
+# Email
+# ------------------------------------------------------------------------------
+DJANGO_SERVER_EMAIL=
+
+MAILGUN_API_KEY=
+MAILGUN_DOMAIN=
+
+
+# django-allauth
+# ------------------------------------------------------------------------------
+DJANGO_ACCOUNT_ALLOW_REGISTRATION=True
+
+# Gunicorn
+# ------------------------------------------------------------------------------
+WEB_CONCURRENCY=4
+
+
+# Redis
+# ------------------------------------------------------------------------------
+REDIS_URL=redis://redis:6379/0
+

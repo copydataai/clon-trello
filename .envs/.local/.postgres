@@ -1,0 +1,7 @@
+# PostgreSQL
+# ------------------------------------------------------------------------------
+POSTGRES_HOST=postgres
+POSTGRES_PORT=5432
+POSTGRES_DB=trello
+POSTGRES_USER=QNDBetorqoWOSSQUyVdtlZmvPCBmojjn
+POSTGRES_PASSWORD=UXgJMjbcNpzvEPHTWboo571pyvGtaiarTLEAjPsZ4amThMAhwSTp1L4GSSWkFwH8
