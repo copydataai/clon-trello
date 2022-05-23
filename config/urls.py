@@ -9,7 +9,6 @@ urlpatterns = [
     # API base url
     path(settings.ADMIN_URL, admin.site.urls),
     path("api/", include("config.api_router")),
-    path("api/users/", include('django_registration.api.urls')),
     path("api/schema/", SpectacularAPIView.as_view(), name="api-schema"),
     path(
         "api/docs/",
