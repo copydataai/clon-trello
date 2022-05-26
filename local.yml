@@ -36,22 +36,22 @@ services:
     env_file:
       - ./.envs/.local/.postgres
 
-  docs:
-  image: trello_local_docs
-  container_name: trello_local_docs
-  platform: linux/x86_64
-  build:
-    context: .
-    dockerfile: ./compose/local/docs/Dockerfile
-  env_file:
-    - ./.envs/.local/.django
-  volumes:
-    - ./docs:/docs:z
-    - ./config:/app/config:z
-    - ./trello:/app/trello:z
-  ports:
-    - "9000:9000"
-  command: /start-docs
+  # docs:
+  # image: trello_local_docs
+  # container_name: trello_local_docs
+  # platform: linux/x86_64
+  # build:
+  #   context: .
+  #   dockerfile: ./compose/local/docs/Dockerfile
+  # env_file:
+  #   - ./.envs/.local/.django
+  # volumes:
+  #   - ./docs:/docs:z
+  #   - ./config:/app/config:z
+  #   - ./trello:/app/trello:z
+  # ports:
+  #   - "9000:9000"
+  # command: /start-docs
 
   mailhog:
     image: mailhog/mailhog:v1.0.0
